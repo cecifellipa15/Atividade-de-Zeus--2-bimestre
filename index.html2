@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro</title>
+</head>
+<body>
+
+    <h1>Cadastro de Pessoas</h1>
+
+    <input type="text" id="nome" placeholder="Nome">
+    <input type="number" id="idade" placeholder="Idade">
+
+    <button onclick="adicionar()">Adicionar</button>
+    <button onclick="calcularMedia()">Calcular Média</button>
+
+    <ul id="lista"></ul>
+
+    <div id="resultado"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
